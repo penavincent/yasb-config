@@ -1,0 +1,310 @@
+2026-11-12 13:04:34,307 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 13:04:34,307 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 13:04:34,308 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 13:25:11,739 [INFO] [MainThread] [root/welcome.py:906]: Created config file at C:\Users\penajoe\.config\yasb\config.yaml
+2026-11-12 13:25:11,741 [INFO] [MainThread] [root/welcome.py:915]: Created styles file at C:\Users\penajoe\.config\yasb\styles.css
+2026-11-12 13:25:12,791 [INFO] [MainThread] [root/service.py:52]: AudioInputService starting...
+2026-11-12 13:25:12,847 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 13:25:13,005 [INFO] [MainThread] [root/dnd_api.py:110]: DndService initialized...
+2026-11-12 13:25:13,111 [INFO] [MainThread] [root/bar_manager.py:106]: Starting WindowsNotificationEventListener...
+2026-11-12 13:25:13,111 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 13:25:13,114 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 13:25:13,114 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 13:25:13,204 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 13:25:13,302 [INFO] [Dummy-7] [root/windows_notification.py:188]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-12 13:25:13,334 [INFO] [MainThread] [root/open_meteo.py:135]: No saved location for open_meteo. Awaiting user setup.
+2026-11-12 13:30:37,327 [ERROR] [MainThread] [root/config.py:99]: The config file 'C:\Users\penajoe\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+  primary-bar:
+    margin:
+    - Extra inputs are not permitted
+
+2026-11-12 13:30:51,480 [INFO] [MainThread] [root/controller.py:22]: Reloading Application because of config change.
+2026-11-12 13:30:51,585 [INFO] [MainThread] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 13:30:51,595 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 13:30:51,654 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping WindowsNotificationEventListener...
+2026-11-12 13:30:51,655 [INFO] [Dummy-7] [root/windows_notification.py:122]: Notification service stopped
+2026-11-12 13:30:51,671 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 13:30:51,699 [INFO] [MainThread] [root/dnd_api.py:130]: Stopping DndService...
+2026-11-12 13:30:53,992 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 13:30:53,993 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 13:30:53,993 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 13:30:54,927 [INFO] [MainThread] [root/service.py:52]: AudioInputService starting...
+2026-11-12 13:30:54,974 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 13:30:55,018 [INFO] [MainThread] [root/dnd_api.py:110]: DndService initialized...
+2026-11-12 13:30:55,127 [INFO] [MainThread] [root/bar_manager.py:106]: Starting WindowsNotificationEventListener...
+2026-11-12 13:30:55,127 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 13:30:55,130 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 13:30:55,130 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 13:30:55,202 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 13:30:55,226 [INFO] [Dummy-7] [root/windows_notification.py:188]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-12 13:31:08,805 [INFO] [MainThread] [root/controller.py:22]: Reloading Application because of config change.
+2026-11-12 13:31:08,913 [INFO] [MainThread] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 13:31:08,922 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 13:31:08,985 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping WindowsNotificationEventListener...
+2026-11-12 13:31:08,986 [INFO] [Dummy-7] [root/windows_notification.py:122]: Notification service stopped
+2026-11-12 13:31:09,000 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 13:31:09,023 [INFO] [MainThread] [root/dnd_api.py:130]: Stopping DndService...
+2026-11-12 13:31:10,100 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 13:31:10,101 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 13:31:10,101 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 13:31:11,007 [INFO] [MainThread] [root/service.py:52]: AudioInputService starting...
+2026-11-12 13:31:11,057 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 13:31:11,105 [INFO] [MainThread] [root/dnd_api.py:110]: DndService initialized...
+2026-11-12 13:31:11,222 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 13:31:11,223 [INFO] [MainThread] [root/bar_manager.py:106]: Starting WindowsNotificationEventListener...
+2026-11-12 13:31:11,226 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 13:31:11,226 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 13:31:11,290 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 13:31:11,309 [INFO] [Dummy-7] [root/windows_notification.py:188]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-12 13:45:39,834 [INFO] [MainThread] [root/controller.py:22]: Reloading Application because of config change.
+2026-11-12 13:45:39,939 [INFO] [MainThread] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 13:45:39,949 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 13:45:40,005 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 13:45:40,021 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping WindowsNotificationEventListener...
+2026-11-12 13:45:40,021 [INFO] [Dummy-7] [root/windows_notification.py:122]: Notification service stopped
+2026-11-12 13:45:40,044 [INFO] [MainThread] [root/dnd_api.py:130]: Stopping DndService...
+2026-11-12 13:45:41,140 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 13:45:41,141 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 13:45:41,141 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 13:45:42,026 [INFO] [MainThread] [root/service.py:52]: AudioInputService starting...
+2026-11-12 13:45:42,076 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 13:45:42,122 [INFO] [MainThread] [root/dnd_api.py:110]: DndService initialized...
+2026-11-12 13:45:42,233 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 13:45:42,234 [INFO] [MainThread] [root/bar_manager.py:106]: Starting WindowsNotificationEventListener...
+2026-11-12 13:45:42,237 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 13:45:42,237 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 13:45:42,316 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 13:45:42,340 [INFO] [Dummy-7] [root/windows_notification.py:188]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-12 13:45:51,699 [INFO] [MainThread] [root/controller.py:22]: Reloading Application because of config change.
+2026-11-12 13:45:51,800 [INFO] [MainThread] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 13:45:51,811 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 13:45:51,870 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 13:45:51,886 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping WindowsNotificationEventListener...
+2026-11-12 13:45:51,887 [INFO] [Dummy-7] [root/windows_notification.py:122]: Notification service stopped
+2026-11-12 13:45:51,909 [INFO] [MainThread] [root/dnd_api.py:130]: Stopping DndService...
+2026-11-12 13:45:53,007 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 13:45:53,008 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 13:45:53,008 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 13:45:53,970 [INFO] [MainThread] [root/service.py:52]: AudioInputService starting...
+2026-11-12 13:45:54,018 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 13:45:54,063 [INFO] [MainThread] [root/dnd_api.py:110]: DndService initialized...
+2026-11-12 13:45:54,171 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 13:45:54,172 [INFO] [MainThread] [root/bar_manager.py:106]: Starting WindowsNotificationEventListener...
+2026-11-12 13:45:54,175 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 13:45:54,175 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 13:45:54,241 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 13:45:54,263 [INFO] [Dummy-7] [root/windows_notification.py:188]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-12 13:47:12,144 [ERROR] [MainThread] [root/config.py:99]: The config file 'C:\Users\penajoe\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+  primary-bar:
+    always_on_top:
+    - Extra inputs are not permitted
+
+2026-11-12 13:49:50,489 [INFO] [MainThread] [root/controller.py:22]: Reloading Application because of config change.
+2026-11-12 13:49:50,598 [INFO] [MainThread] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 13:49:50,606 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 13:49:50,660 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 13:49:50,676 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping WindowsNotificationEventListener...
+2026-11-12 13:49:50,677 [INFO] [Dummy-7] [root/windows_notification.py:122]: Notification service stopped
+2026-11-12 13:49:50,702 [INFO] [MainThread] [root/dnd_api.py:130]: Stopping DndService...
+2026-11-12 13:49:51,790 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 13:49:51,791 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 13:49:51,792 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 13:49:52,681 [INFO] [MainThread] [root/service.py:52]: AudioInputService starting...
+2026-11-12 13:49:52,731 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 13:49:52,779 [INFO] [MainThread] [root/dnd_api.py:110]: DndService initialized...
+2026-11-12 13:49:52,876 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 13:49:52,876 [INFO] [MainThread] [root/bar_manager.py:106]: Starting WindowsNotificationEventListener...
+2026-11-12 13:49:52,879 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 13:49:52,879 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 13:49:52,898 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 13:49:52,909 [INFO] [Dummy-7] [root/windows_notification.py:188]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-12 13:50:41,688 [INFO] [MainThread] [root/controller.py:22]: Reloading Application because of config change.
+2026-11-12 13:50:41,803 [INFO] [MainThread] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 13:50:41,814 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 13:50:41,819 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 13:50:41,820 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping WindowsNotificationEventListener...
+2026-11-12 13:50:41,821 [INFO] [Dummy-7] [root/windows_notification.py:122]: Notification service stopped
+2026-11-12 13:50:41,825 [INFO] [MainThread] [root/dnd_api.py:130]: Stopping DndService...
+2026-11-12 13:50:42,874 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 13:50:42,875 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 13:50:42,876 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 13:50:43,773 [INFO] [MainThread] [root/service.py:52]: AudioInputService starting...
+2026-11-12 13:50:43,824 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 13:50:43,870 [INFO] [MainThread] [root/dnd_api.py:110]: DndService initialized...
+2026-11-12 13:50:43,976 [INFO] [MainThread] [root/bar_manager.py:106]: Starting WindowsNotificationEventListener...
+2026-11-12 13:50:43,977 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 13:50:43,979 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 13:50:43,979 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 13:50:44,001 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 13:50:44,010 [INFO] [Dummy-7] [root/windows_notification.py:188]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-12 13:51:13,352 [INFO] [MainThread] [root/controller.py:22]: Reloading Application because of config change.
+2026-11-12 13:51:13,466 [INFO] [MainThread] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 13:51:13,479 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 13:51:13,483 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping WindowsNotificationEventListener...
+2026-11-12 13:51:13,484 [INFO] [Dummy-7] [root/windows_notification.py:122]: Notification service stopped
+2026-11-12 13:51:13,486 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 13:51:13,489 [INFO] [MainThread] [root/dnd_api.py:130]: Stopping DndService...
+2026-11-12 13:51:14,614 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 13:51:14,615 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 13:51:14,615 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 13:51:15,512 [INFO] [MainThread] [root/service.py:52]: AudioInputService starting...
+2026-11-12 13:51:15,562 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 13:51:15,607 [INFO] [MainThread] [root/dnd_api.py:110]: DndService initialized...
+2026-11-12 13:51:15,704 [INFO] [MainThread] [root/bar_manager.py:106]: Starting WindowsNotificationEventListener...
+2026-11-12 13:51:15,705 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 13:51:15,707 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 13:51:15,708 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 13:51:15,728 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 13:51:15,734 [INFO] [Dummy-7] [root/windows_notification.py:188]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-12 14:43:28,605 [INFO] [CLIPipeServer] [cli_server/server.py:219]: CLI server received command: reload
+2026-11-12 14:43:28,606 [INFO] [CLIPipeServer] [root/controller.py:22]: Reloading Application from CLI...
+2026-11-12 14:43:28,639 [WARNING] [MainThread] [root/controller.py:19]: Reload already in progress, ignoring additional reload request.
+2026-11-12 14:43:28,639 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 14:43:28,715 [INFO] [CLIPipeServer] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 14:43:28,730 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping WindowsNotificationEventListener...
+2026-11-12 14:43:28,731 [INFO] [Dummy-7] [root/windows_notification.py:122]: Notification service stopped
+2026-11-12 14:43:28,733 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 14:43:28,736 [INFO] [MainThread] [root/dnd_api.py:130]: Stopping DndService...
+Windows fatal exception: access violation
+
+Thread 0x00007808 [Thread-9 (_restart_pipe_server)] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\cli\server.py", line 242 in _restart_pipe_server
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1025 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1083 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1045 in _bootstrap
+
+Thread 0x000060d0 (most recent call first):
+  <no Python frame>
+
+Thread 0x00005b84 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 426 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\cli\server.py", line 100 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1025 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1083 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1045 in _bootstrap
+
+Current thread 0x00007354 (most recent call first):
+  File "main.py", line 137 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+2026-11-12 14:43:30,493 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 14:43:30,494 [INFO] [MainThread] [root/single_instance.py:36]: Waiting for previous YASB instance to exit...
+2026-11-12 14:43:34,250 [INFO] [MainThread] [root/single_instance.py:41]: Previous instance exited, continuing startup.
+2026-11-12 14:43:34,251 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 14:43:34,251 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 14:43:35,077 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 14:43:35,201 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 14:43:35,204 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 14:43:35,204 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 14:43:35,256 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+Windows fatal exception: code 0x8001010d
+
+Thread 0x00009f18 [Thread-5] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1083 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1045 in _bootstrap
+
+Thread 0x00006644 [Thread-6] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1083 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1045 in _bootstrap
+
+Thread 0x00009cf4 [SystemEventListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\event_listener.py", line 93 in run
+
+Thread 0x00006140 [WiFiWorker] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 376 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 671 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\wifi\wifi_managers.py", line 159 in run
+
+Thread 0x0000687c [MemoryWorker] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 376 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 671 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\memory\memory_api.py", line 247 in run
+
+Thread 0x00009890 [IconService] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\src\core\utils\icons\service.py", line 175 in _run_icon_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1025 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1083 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1045 in _bootstrap
+
+Thread 0x000040b0 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002c30 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 426 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\cli\server.py", line 100 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1025 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1083 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1045 in _bootstrap
+
+Thread 0x0000528c [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 426 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\cli\server.py", line 197 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1025 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1083 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.10\x64\Lib\threading.py", line 1045 in _bootstrap
+
+Current thread 0x000063a4 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 34 in main
+  File "main.py", line 137 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+2026-11-12 14:49:54,311 [INFO] [CLIPipeServer] [cli_server/server.py:219]: CLI server received command: reload
+2026-11-12 14:49:54,312 [INFO] [CLIPipeServer] [root/controller.py:22]: Reloading Application from CLI...
+2026-11-12 14:49:54,416 [INFO] [CLIPipeServer] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 14:49:54,438 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 14:49:55,532 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 14:49:55,532 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 14:49:55,533 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 14:49:56,025 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 14:49:56,149 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 14:49:56,151 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 14:49:56,151 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 14:49:56,177 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 14:50:35,701 [INFO] [MainThread] [root/controller.py:22]: Reloading Application because of config change.
+2026-11-12 14:50:35,808 [INFO] [MainThread] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 14:50:35,817 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 14:50:35,850 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 14:50:36,900 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 14:50:36,901 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 14:50:36,901 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 14:50:37,788 [INFO] [MainThread] [root/service.py:52]: AudioInputService starting...
+2026-11-12 14:50:37,838 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 14:50:37,972 [INFO] [MainThread] [root/dnd_api.py:110]: DndService initialized...
+2026-11-12 14:50:38,074 [INFO] [MainThread] [root/bar_manager.py:106]: Starting WindowsNotificationEventListener...
+2026-11-12 14:50:38,075 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 14:50:38,078 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 14:50:38,078 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 14:50:38,102 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started
+2026-11-12 14:50:38,112 [INFO] [Dummy-7] [root/windows_notification.py:188]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-12 14:50:49,140 [INFO] [MainThread] [root/controller.py:22]: Reloading Application because of config change.
+2026-11-12 14:50:49,244 [INFO] [MainThread] [cli_server/server.py:76]: Log pipe server stopped
+2026-11-12 14:50:49,254 [INFO] [MainThread] [root/bar_manager.py:96]: Successfully loaded updated config and re-initialised all bars.
+2026-11-12 14:50:49,281 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping WindowsNotificationEventListener...
+2026-11-12 14:50:49,282 [INFO] [Dummy-7] [root/windows_notification.py:122]: Notification service stopped
+2026-11-12 14:50:49,283 [INFO] [MainThread] [root/bar_manager.py:122]: Stopping SystemEventListener...
+2026-11-12 14:50:49,286 [INFO] [MainThread] [root/dnd_api.py:130]: Stopping DndService...
+2026-11-12 14:50:50,348 [INFO] [MainThread] [root/log.py:106]: YASB v2.0.8
+2026-11-12 14:50:50,349 [INFO] [CLIPipeServer] [cli_server/server.py:178]: CLI server started v1.1.7
+2026-11-12 14:50:50,350 [INFO] [MainThread] [cli_server/server.py:68]: Log pipe server started
+2026-11-12 14:50:50,851 [INFO] [MainThread] [root/service.py:73]: AudioOutputService starting...
+2026-11-12 14:50:50,972 [INFO] [MainThread] [root/bar_manager.py:106]: Starting SystemEventListener...
+2026-11-12 14:50:50,974 [INFO] [MainThread] [root/watcher.py:67]: Watching directory: c:\users\penajoe\.config\yasb
+2026-11-12 14:50:50,974 [INFO] [MainThread] [root/watcher.py:108]: Created file watcher
+2026-11-12 14:50:50,999 [INFO] [MainThread] [root/update_service.py:442]: Background update checker started

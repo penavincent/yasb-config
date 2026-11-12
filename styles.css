@@ -1,0 +1,564 @@
+/*
+ * Catppuccin Macchiato Reimagined - Blue.
+ * Adapted from Catppuccin Mocha Reimagined by szbmrk:
+ * https://github.com/amnweb/yasb-themes/tree/main/themes/68dd7099-3fea-45a7-9882-6d59bb05431c
+ *
+ * MIT License
+ * Copyright (c) 2024 amnweb
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+:root {
+    --rosewater: #f4dbd6;
+    --flamingo: #f0c6c6;
+    --pink: #f5bde6;
+    --mauve: #c6a0f6;
+    --red: #ed8796;
+    --maroon: #ee99a0;
+    --peach: #f5a97f;
+    --yellow: #eed49f;
+    --green: #a6da95;
+    --teal: #8bd5ca;
+    --sky: #91d7e3;
+    --sapphire: #7dc4e4;
+    --blue: #8aadf4;
+    --lavender: #b7bdf8;
+    --text: #cad3f5;
+    --subtext1: #b8c0e0;
+    --subtext0: #a5adcb;
+    --overlay2: #939ab7;
+    --overlay1: #8087a2;
+    --overlay0: #6e738d;
+    --surface2: #5b6078;
+    --surface1: #494d64;
+    --surface0: #363a4f;
+    --base: #24273a;
+    --mantle: rgba(30, 32, 48, 0.5);
+    --crust: rgba(24, 25, 38, 0.75);
+    --accent: var(--blue);
+    --accent-text: #181926;
+    --hover: rgba(138, 173, 244, 0.12);
+    --selected: rgba(138, 173, 244, 0.2);
+}
+
+* {
+    font-size: 12px;
+    color: var(--subtext0);
+    font-weight: 700;
+    font-family: "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+
+.yasb-bar {
+    padding: 0;
+    margin: 0;
+    background-color: var(--crust);
+}
+
+.widget {
+    padding: 0 8px;
+    margin: 0 2px;
+}
+
+.widget .label,
+.widget .label.alt {
+    padding: 0 2px;
+}
+
+.icon {
+    font-size: 16px;
+    margin: 0 4px 0 0;
+}
+
+.tooltip {
+    background-color: var(--base);
+    color: var(--text);
+    padding: 5px 10px;
+    border: 1px solid var(--surface1);
+    border-radius: 4px;
+}
+
+.context-menu,
+.context-menu .menu-checkbox {
+    background-color: var(--base);
+    color: var(--text);
+    padding: 4px 0;
+}
+
+.context-menu {
+    border: 1px solid var(--surface1);
+    border-radius: 8px;
+}
+
+.context-menu::item,
+.context-menu .menu-checkbox {
+    padding: 6px 12px;
+    margin: 2px 6px;
+    border-radius: 4px;
+    min-width: 100px;
+}
+
+.context-menu::item:selected,
+.context-menu .menu-checkbox:hover {
+    background-color: var(--accent);
+    color: var(--accent-text);
+}
+
+.context-menu::item:disabled {
+    color: var(--overlay0);
+}
+
+.context-menu::separator {
+    height: 1px;
+    background-color: var(--surface1);
+    margin: 4px 8px;
+}
+
+.context-menu::right-arrow {
+    width: 8px;
+    height: 8px;
+    padding-right: 24px;
+}
+
+.context-menu .menu-checkbox .checkbox {
+    border: none;
+    padding: 8px 16px;
+    color: var(--text);
+}
+
+.context-menu .menu-checkbox .checkbox::indicator {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.context-menu .menu-checkbox .checkbox::indicator:unchecked {
+    background-color: var(--surface1);
+}
+
+.context-menu .menu-checkbox .checkbox::indicator:checked {
+    background-color: var(--accent);
+}
+
+.home-widget {
+    padding: 0 4px 0 12px;
+}
+
+.home-widget .icon {
+    font-size: 18px;
+    color: var(--subtext1);
+}
+
+.home-menu {
+    background-color: var(--mantle);
+    padding: 0;
+    margin-left: 2px;
+}
+
+.home-menu .menu-item {
+    padding: 8px 48px 8px 12px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.home-menu .menu-item:hover {
+    background-color: var(--accent);
+    color: var(--accent-text);
+    margin: 4px 6px;
+    border-radius: 4px;
+}
+
+.home-menu .separator {
+    max-height: 1px;
+    background-color: var(--overlay0);
+    margin: 0 8px;
+}
+
+.glazewm-workspaces,
+.clock-widget {
+    background-color: var(--crust);
+    margin: 4px 0;
+    border-radius: 12px;
+    border: 0;
+}
+
+.glazewm-workspaces .ws-btn {
+    font-size: 14px;
+    border: none;
+    color: var(--overlay0);
+    padding: 0 6px;
+}
+
+.glazewm-workspaces .ws-btn:hover {
+    color: var(--accent);
+}
+
+.glazewm-workspaces .ws-btn.active_populated,
+.glazewm-workspaces .ws-btn.active_empty {
+    color: var(--accent);
+    font-weight: 900;
+}
+
+.clock-widget .icon {
+    font-size: 14px;
+    color: var(--sky);
+}
+
+.clock-widget .label {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--subtext0);
+}
+
+.clock-popup.calendar {
+    background-color: var(--mantle);
+}
+
+.clock-popup.calendar .calendar-table,
+.clock-popup.calendar .calendar-table::item {
+    background-color: transparent;
+    color: var(--subtext0);
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.clock-popup.calendar .calendar-table::item:selected {
+    color: var(--accent-text);
+    background-color: var(--accent);
+    border-radius: 5px;
+}
+
+.clock-popup.calendar .day-label {
+    margin-top: 20px;
+}
+
+.clock-popup.calendar .day-label,
+.clock-popup.calendar .month-label,
+.clock-popup.calendar .date-label {
+    font-size: 16px;
+    color: var(--accent);
+    font-weight: 700;
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.clock-popup.calendar .month-label {
+    font-weight: normal;
+}
+
+.clock-popup.calendar .date-label {
+    font-size: 88px;
+    font-weight: 900;
+    color: var(--text);
+    margin-top: -20px;
+}
+
+.memory-widget .icon {
+    color: var(--mauve);
+}
+
+.disk-widget .icon {
+    color: var(--teal);
+}
+
+.disk-group {
+    background-color: var(--mantle);
+}
+
+.disk-group-row {
+    min-width: 220px;
+    max-width: 220px;
+    max-height: 40px;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+
+.disk-group-row:hover {
+    background-color: var(--hover);
+    border: 1px solid var(--accent);
+}
+
+.disk-group-label-bar {
+    max-height: 8px;
+    border: 0;
+    background-color: rgba(139, 213, 202, 0.3);
+    border-radius: 4px;
+}
+
+.disk-group-label-bar::chunk {
+    background-color: var(--teal);
+    border-radius: 4px;
+}
+
+.disk-group-label {
+    font-size: 13px;
+}
+
+.disk-group-label-size {
+    font-size: 12px;
+    color: rgba(202, 211, 245, 0.5);
+}
+
+.open-meteo-widget .icon {
+    font-size: 20px;
+    margin: 0 2px 1px 0;
+    color: var(--maroon);
+}
+
+.open-meteo-card {
+    background-color: var(--mantle);
+    min-width: 400px;
+}
+
+.open-meteo-card-today .label {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--subtext0);
+}
+
+.open-meteo-card-today .label.location {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.open-meteo-card-today .label.sunrisesunset,
+.open-meteo-card-today .label.sunrisesunset-icon {
+    font-size: 16px;
+    color: var(--yellow);
+}
+
+.open-meteo-card-day {
+    border: 1px solid var(--surface1);
+    border-radius: 6px;
+    background-color: transparent;
+    padding: 4px;
+    min-width: 70px;
+}
+
+.open-meteo-card-day .day-name {
+    color: var(--subtext0);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.open-meteo-card-day .day-temp-max {
+    font-size: 16px;
+    color: var(--text);
+}
+
+.open-meteo-card-day .day-temp-min {
+    font-size: 13px;
+    color: var(--subtext0);
+    font-weight: 400;
+}
+
+.open-meteo-card-day.active,
+.open-meteo-card-day:hover {
+    background-color: var(--hover);
+    border: 1px solid var(--accent);
+}
+
+.open-meteo-card .search-head {
+    font-size: 18px;
+    color: var(--text);
+}
+
+.open-meteo-card .search-description {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--subtext0);
+    padding-bottom: 8px;
+}
+
+.open-meteo-card .search-input {
+    padding: 8px 12px;
+    border: 1px solid var(--surface2);
+    border-radius: 6px;
+    background-color: var(--base);
+    color: var(--text);
+}
+
+.open-meteo-card .search-input:focus {
+    border: 1px solid var(--accent);
+}
+
+.open-meteo-card .search-results {
+    border: 1px solid var(--surface1);
+    border-radius: 6px;
+    background-color: var(--base);
+    color: var(--text);
+}
+
+.open-meteo-card .search-results::item {
+    padding: 6px;
+}
+
+.open-meteo-card .search-results::item:hover {
+    background-color: var(--hover);
+}
+
+.open-meteo-card .search-results::item:selected {
+    background-color: var(--accent);
+    color: var(--accent-text);
+}
+
+.open-meteo-card .no-data-icon {
+    font-size: 64px;
+    color: var(--maroon);
+}
+
+.open-meteo-card .no-data-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--subtext0);
+}
+
+.wifi-widget .icon {
+    color: var(--yellow);
+}
+
+.volume-widget .icon {
+    color: var(--blue);
+    margin: 1px 2px 0 0;
+}
+
+.audio-menu {
+    background-color: var(--mantle);
+    min-width: 300px;
+}
+
+.audio-menu .audio-container .device {
+    background-color: transparent;
+    border: none;
+    padding: 6px 8px 6px 4px;
+    margin: 2px 0;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.audio-menu .audio-container .device.selected {
+    background-color: var(--selected);
+    color: var(--text);
+}
+
+.audio-menu .audio-container .device:hover {
+    background-color: var(--hover);
+    color: var(--accent);
+}
+
+.audio-menu .system-volume-container .volume-slider {
+    border: none;
+}
+
+.audio-menu .volume-slider::groove:horizontal {
+    height: 4px;
+    background-color: var(--surface1);
+    border-radius: 2px;
+}
+
+.audio-menu .volume-slider::sub-page:horizontal {
+    background-color: var(--accent);
+    border-radius: 2px;
+}
+
+.audio-menu .volume-slider::handle:horizontal {
+    width: 12px;
+    margin: -4px 0;
+    border-radius: 6px;
+    background-color: var(--accent);
+}
+
+.battery-widget .icon {
+    color: var(--flamingo);
+}
+
+.battery-widget .icon.status-low {
+    color: var(--yellow);
+}
+
+.battery-widget .icon.status-critical {
+    color: var(--red);
+}
+
+.power-menu-widget .label {
+    color: var(--red);
+    font-size: 13px;
+}
+
+.power-menu-popup {
+    background-color: transparent;
+}
+
+.power-menu-popup .button {
+    padding: 0;
+    width: 180px;
+    height: 230px;
+    border-radius: 8px;
+    background-color: var(--base);
+    border: 8px solid transparent;
+    margin: 0;
+}
+
+.power-menu-popup .button.hover {
+    background-color: var(--surface0);
+    border: 8px solid var(--accent);
+}
+
+.power-menu-popup .button .label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--accent);
+}
+
+.power-menu-popup .button .icon {
+    font-size: 64px;
+    padding-top: 32px;
+    color: var(--accent);
+}
+
+.power-menu-popup .button.cancel {
+    height: 32px;
+    border-radius: 4px;
+}
+
+.power-menu-popup .button.cancel .icon {
+    padding: 0;
+    margin: 0;
+}
+
+.power-menu-popup .button.cancel .label {
+    color: var(--red);
+    margin: 0;
+}
+
+.uptime {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: var(--overlay2);
+    font-weight: 600;
+}
