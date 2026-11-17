@@ -6,7 +6,7 @@ update_check: true
 bars:
   primary-bar:
     enabled: true
-    screens: ["VG270U P", '\\.\DISPLAY641']
+    screens: ["VG270U P"]
     class_name: "yasb-bar"
     alignment:
       position: "top"
@@ -17,7 +17,7 @@ bars:
     blur_effect:
       enabled: true
       dark_mode: true
-      round_corners: false
+      round_corners: true
       border_color: "None"
     window_flags:
       always_on_top: true
@@ -29,10 +29,53 @@ bars:
       width: "100%"
       height: 32
     padding:
-      top: 0
-      left: 0
+      top: 4
+      left: 20
       bottom: 0
-      right: 0
+      right: 20
+    widgets:
+      left: ["home", "glazewm_workspaces", "active_window"]
+      center: ["clock"]
+      right:
+        [
+          "memory",
+          "disk",
+          "open_meteo",
+          "wifi",
+          "volume",
+          "battery",
+          "power_menu",
+        ]
+
+  devbox-bar:
+    enabled: true
+    screens: ["*"]
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      align: "center"
+    animation:
+      enabled: true
+      duration: 150
+    blur_effect:
+      enabled: true
+      dark_mode: true
+      round_corners: true
+      border_color: "None"
+    window_flags:
+      always_on_top: true
+      windows_app_bar: false
+      hide_on_fullscreen: true
+      hide_on_maximized: true
+      auto_hide: true
+    dimensions:
+      width: "100%"
+      height: 32
+    padding:
+      top: 4
+      left: 20
+      bottom: 0
+      right: 20
     widgets:
       left: ["home", "glazewm_workspaces", "active_window"]
       center: ["clock"]
